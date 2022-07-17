@@ -1,0 +1,91 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin: 100px auto;
+}
+
+.col-left, 
+.col-right {
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-left p,
+.col-right p {
+    text-align: justify;
+}
+
+.col-left {
+    width: 40%;
+}
+
+.col-right {
+    width: 58%;
+    margin-left: 1rem;
+}
+
+.col-left img {
+    width: 100%;
+}
+
+.link-category {
+    background-color: #5d7fb9;
+    color: white;
+    text-decoration: none;
+    padding: .6em 2.5em ;
+    /* display: inline-block; */
+    line-height: 2.2em;
+}
+
+.col-right p:first-child {
+    margin-top: 0;
+}
+
+.facebook {
+    background-color: rgb(59, 89, 152);
+    fill: white;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.twitter {
+    background-color: rgb(29, 161, 242);
+    fill: white;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.linkedin {
+    background-color: rgb(0, 119, 181);
+    fill: white;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.pinterest {
+    background-color: rgb(203, 32, 39);
+    fill: white;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.email {
+    background-color: rgb(255, 101, 80);
+    fill: white;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
