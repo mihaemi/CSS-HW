@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>A CSS Button with TEXt & ICON</title>
+    <style>
+        .btn-wrapper {
+            /* border: 1px solid black; */
+            height: 51px;
+            width: 210px;
+            display: inline-block;
+        }
+
+        .btn-wrapper2 { 
+        /* border: 1px solid black; */
+        height: 43px;
+        width: 168px; 
+        display: inline-block;
+    }
+
+        .btn {
+            display: inline-block;
+            width: 208px;
+            height: 51px;
+            border-radius: 26px;
+            text-decoration: none;
+            font-family: Arial;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 52px;
+            box-shadow: 0 2px 3px #55555557;
+        }
+
+        .btn-download {
+            background-color: #91c53f;
+            color: white;
+        }
+
+        .btn i {
+            width: 52px;
+            height: 52px;
+            /* transform: translateY(-16px); */
+            border-radius: 26px;
+            text-align: center;
+            line-height: 52px;
+            font-size: 30px;
+            box-shadow: 0 2px 3px #55555557;
+
+        }
+
+        .btn-download i {
+            background-color: white;
+            color: #91c53f;
+        }
+
+        .btn span {
+            display: inline-block;
+            transform: translateY(-5px);
+            width: 134px;
+            text-align: center;
+            letter-spacing: .5px;
+        }
+        .btn-upload {
+        background-color: #ed1b30;
+        color: white;
+        display: inline-block;
+      }
+      .btn-upload i {
+        background-color: white;
+        color: #ed1b30;
+      }
+
+      .btn-download:hover{
+        background-color: #1f7a1f;
+        transition: 0.25s;
+        
+      }
+      .btn-download i:hover {
+        background-color: #1f7a1f;
+        transition: 0.25s;
+
+      }
+
+      .btn-upload:hover{
+        background-color:  #800000;
+        transition: 0.25s;
+
+      }
+      .btn-upload i:hover {
+        background-color: #800000;
+        transition: 0.25s;
+      }
+
+      
+
+
+    </style>
+</head>
+<body>
+    <h1>A CSS Button with TEXT & ICON</h1>
+
+    <div class="btn-wrapper">
+        <a class="btn btn-download" href="/download"> 
+            <i class="fa-solid fa-cloud-arrow-down"></i> 
+            <span> Download</span> </a> 
+    </div>
+    <div class="btn-wrapper2">
+        <a  class=" btn btn-upload" href="#upload">
+          <i class="fa-solid fa-upload"></i>
+          <span>Upload</span>
+          </a>
+      </div>
+</body>
+</html>
