@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STYLE SYNC / APP BAR / NAVBAR</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav li {
+            padding: 1em;
+            background-color: #ddd;
+            color: black;
+        }
+
+        nav a {
+            color: inherit;
+        }
+
+        /* 1. multiple selectors*/
+
+        /* nav li:hover {
+            background-color: black;
+            color: white;
+        }
+
+        nav li:hover a {
+            color: white;
+        } */
+
+        /* 2. inheritance */
+        nav li:hover {
+            background-color: black;
+            color: white;
+        }
+            </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Tutorials</a>▼</li>
+            <li><a href="#">References</a>▼</li>
+            <li><a href="#">Exercises</a>▼</li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
